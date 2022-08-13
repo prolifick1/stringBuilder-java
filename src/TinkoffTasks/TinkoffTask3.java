@@ -15,9 +15,9 @@ public class TinkoffTask3 {
         }
     }
 
-    public static void main(String[] args) {
-        System.out.println(maximizeIncome(perDayIncome));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(maximizeIncome(perDayIncome));
+//    }
 
     public static int maximizeIncome(int[] perDayIncome) {
         int notChanged = Arrays.stream(perDayIncome).sum();

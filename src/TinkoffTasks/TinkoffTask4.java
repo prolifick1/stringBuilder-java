@@ -5,9 +5,9 @@ public class TinkoffTask4 {
     static Scanner sc = new Scanner(System.in);
     static Map<String, Stack<StackFrame>> varStrings = new HashMap<>();
 
-    public static void main(String[] args) {
-        completionFrames();
-    }
+//    public static void main(String[] args) {
+//        completionFrames();
+//    }
 
     public static void completionFrames() {
         Map<Integer, HashSet<String>> changedPerStack = new HashMap<>();
