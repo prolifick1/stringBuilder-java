@@ -1,4 +1,5 @@
-package leetCodeEasy;/*392. Is Subsequence*/
+package leetCodeEasy;
+/*392. Is Subsequence*/
 
 public class IsSubsequence {
     static int index = 0;

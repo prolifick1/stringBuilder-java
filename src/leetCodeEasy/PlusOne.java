@@ -1,4 +1,5 @@
-package leetCodeEasy;/*66. Plus One*/
+package leetCodeEasy;
+/*66. Plus One*/
 
 import java.util.Arrays;
 

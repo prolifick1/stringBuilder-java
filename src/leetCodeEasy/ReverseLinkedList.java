@@ -1,4 +1,5 @@
-package leetCodeEasy;/*206. Reverse Linked List*/
+package leetCodeEasy;
+/*206. Reverse Linked List*/
 
 
 public class ReverseLinkedList {
@@ -12,7 +13,7 @@ public class ReverseLinkedList {
 //            System.out.print(head.val);
 //            head = head.next;
 //        }
-//        System.out.println();
+//
 //    }
 
 
