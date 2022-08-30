@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*977. Squares of a Sorted Array*/
 
 import java.util.Arrays;

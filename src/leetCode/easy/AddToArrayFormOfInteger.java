@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*989. Add to Array-Form of Integer*/
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*1217. Minimum Cost to Move Chips to The Same Position
 *
 * We have n chips, where the position of the ith chip is position[i].

@@ -1,4 +1,4 @@
-package TinkoffTasks;
+package TinkoffTasks.Tasks;
 
 import java.util.*;
 

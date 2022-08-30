@@ -1,4 +1,4 @@
-package TinkoffTasks;// остался случай где не Numeric, и уже есть константа.
+package TinkoffTasks.Tasks;// остался случай где не Numeric, и уже есть константа.
 import java.util.*;
 
 public class TinkoffTask4 {

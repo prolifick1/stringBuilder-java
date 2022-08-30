@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*1748. Sum of Unique Elements*/
 
 public class SumofUniqueElements {

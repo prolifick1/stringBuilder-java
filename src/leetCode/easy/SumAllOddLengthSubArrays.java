@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*1588. Sum of All Odd Length SubArrays*/
 
 public class SumAllOddLengthSubArrays {

@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*643. Maximum Average Subarray I*/
 
 public class MaximumAverageSubarray {

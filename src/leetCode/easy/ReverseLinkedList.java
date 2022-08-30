@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*206. Reverse Linked List*/
 
 

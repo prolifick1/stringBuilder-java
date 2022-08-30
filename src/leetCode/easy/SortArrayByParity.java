@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*905. Sort Array By Parity*/
 
 

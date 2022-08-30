@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*941. Valid Mountain Array*/
 
 public class ValidMountainArray {

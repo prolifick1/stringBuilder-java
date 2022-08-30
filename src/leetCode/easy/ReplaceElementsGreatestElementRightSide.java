@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*1299. Replace Elements with Greatest Element on Right Side*/
 
 public class ReplaceElementsGreatestElementRightSide {

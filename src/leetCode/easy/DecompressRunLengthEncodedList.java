@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*1313. Decompress Run-Length Encoded List
 *
 * We are given a list nums of integers representing a list compressed with run-length encoding.
@@ -12,7 +12,6 @@ The second pair [3,4] means we have freq = 3 and val = 4 so we generate [4,4,4].
 At the end the concatenation [2] + [4,4,4] is [2,4,4,4].*/
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class DecompressRunLengthEncodedList {

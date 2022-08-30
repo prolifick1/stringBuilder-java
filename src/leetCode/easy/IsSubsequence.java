@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*392. Is Subsequence*/
 
 public class IsSubsequence {

@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*1550. Three Consecutive Odds*/
 
 public class ThreeConsecutiveOdds {

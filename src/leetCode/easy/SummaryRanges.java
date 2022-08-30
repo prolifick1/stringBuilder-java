@@ -1,4 +1,4 @@
-package leetCodeEasy;
+package leetCode.easy;
 /*228. Summary Ranges*/
 
 import java.util.ArrayList;
