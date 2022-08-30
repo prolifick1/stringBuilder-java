@@ -1,7 +1,7 @@
 package leetCodeEasy;
-/*1313. Decompress Run-Length Encoded List*/
+/*1550. Three Consecutive Odds*/
 
-public class DecompressRunLengthEncodedList {
+public class ThreeConsecutiveOdds {
 //    public static void main(String[] args) {
 //        int[] arr = {1,2,1,2,1,2,1,1,2,1};
 //        System.out.println(threeConsecutiveOdds(arr));

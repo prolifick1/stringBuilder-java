@@ -80,7 +80,7 @@ public class TinkoffTask5 {
     }
 
     static class BohrNode {
-        // можем не хранить все т.к они все равно находятся в лексикографическом порядке
+        // may not storage whole because it in lexicographic order
         public int suitableUserIdFrom; // including
         public int suitableUserIdTo; // including
         public Map<Character, BohrNode> transitions = new HashMap<>();
