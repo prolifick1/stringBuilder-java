@@ -13,51 +13,17 @@ You have to visit the points in the same order as they appear in the array.
 You are allowed to pass through points that appear later in the order, but these do not count as visits.*/
 
 public class MinimumTimeVisitingAllPoints {
-    public static void main(String[] args) {
-        int[][] points = {{1, 1}, {1, 2}, {3, 4}, {-1, 0}};
-        System.out.println(minTimeToVisitAllPoints(points));
-    }
+//    public static void main(String[] args) {
+//        int[][] points = {{0, 1}, {5,4}};
+//        System.out.println(minTimeToVisitAllPoints(points));
+//    }
 
     public static int minTimeToVisitAllPoints(int[][] points) {
-        int[] currentPos = points[0];
-        int res = 0;
-
-        for (int i = 1; i < points.length; i++) {
-            if (currentPos[0] == points[i][0] && currentPos[1] == points[i][1]) {
-                currentPos = points[i];
-                continue;
-            }
-
-            res += timeStep(currentPos, points[i]);
-            currentPos = points[i];
+        int totaltime = 0;
+        for (int i = 0; i < points.length - 1; i++) {
+            totaltime += Math.max(Math.abs(points[i][0] - points[i + 1][0]), Math.abs(points[i][1] - points[i + 1][1]));
         }
-        return res;
-    }
-
-    public static int timeStep(int[] currentPos, int[] nextPos) {
-        int res = 0;
-
-        if (currentPos[0] == nextPos[0]) {
-            while (currentPos[1] != nextPos[1]) {
-                res += 1;
-                if (currentPos[1] > nextPos[1]) {
-                    currentPos[1]--;
-                } else {
-                    currentPos[1]++;
-                }
-            }
-        } else if (currentPos[1] == nextPos[1]) {
-            while (currentPos[0] != nextPos[0]) {
-                res += 1;
-                if (currentPos[0] > nextPos[0]) {
-                    currentPos[0]--;
-                } else {
-                    currentPos[0]++;
-                }
-            }
-        } else {
-
-        }
-        return res;
+        return totaltime;
     }
 }
+
