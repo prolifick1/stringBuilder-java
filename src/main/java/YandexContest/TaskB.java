@@ -3,11 +3,11 @@ package YandexContest;
 import java.util.*;
 
 public class TaskB {
-    public static void main(String[] args) {
-        for (String item: solve()){
-            System.out.println(item);
-        }
-    }
+//    public static void main(String[] args) {
+//        for (String item: solve()){
+//            System.out.println(item);
+//        }
+//    }
 
     public static Set<String> solve() {
         Scanner sc = new Scanner(System.in);

@@ -8,9 +8,9 @@ import java.util.*;
 
 
 public class TaskE {
-    public static void main(String[] args) throws FileNotFoundException {
-        System.out.println(solve());
-    }
+//    public static void main(String[] args) throws FileNotFoundException {
+//        System.out.println(solve());
+//    }
 
     public static int solve() throws FileNotFoundException {
 

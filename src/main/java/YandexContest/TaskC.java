@@ -11,9 +11,9 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class TaskC {
-    public static void main(String[] args) {
-        System.out.println(solve(System.in));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(solve(System.in));
+//    }
 
     public static String solve(InputStream input) {
         Scanner scanner = new Scanner(input);

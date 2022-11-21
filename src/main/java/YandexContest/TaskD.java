@@ -3,10 +3,10 @@ import java.io.InputStream;
 import java.util.*;
 
 public class TaskD {
-    public static void main(String[] args) {
-        String result = solve(System.in);
-        System.out.println(result);
-    }
+//    public static void main(String[] args) {
+//        String result = solve(System.in);
+//        System.out.println(result);
+//    }
 
     public static String solve(InputStream input) {
         Scanner scanner = new Scanner(input);
