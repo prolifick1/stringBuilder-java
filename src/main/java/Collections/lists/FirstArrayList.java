@@ -86,14 +86,12 @@ public class FirstArrayList<E> implements List<E> {
     }
 
     private void offset(int start) {
-        size--;
-        if (size <= 0) {
-            return;
+        if (--size > 0) {
+            if (size != start) {
+                System.arraycopy(arr, start + 1, arr, start, size - start);
+            }
+            arr[size] = null;
         }
-        if (size != start) {
-            System.arraycopy(arr, start + 1, arr, start, size - start);
-        }
-        arr[size] = null;
     }
 
     public int size() {
