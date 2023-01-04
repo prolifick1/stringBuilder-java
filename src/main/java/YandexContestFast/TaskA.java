@@ -1,4 +1,4 @@
-package YandexContextFast;
+package YandexContestFast;
 
 
 import java.io.File;
@@ -69,11 +69,9 @@ public class TaskA {
         allIndexPermutations(indices, new int[]{}, indexPermutations);
 
 
+
         return sequence;
     }
-
-
-
 
     private static void allIndexPermutations(int[] indices, int[] result, ArrayList<int[]> pool) {
         if (indices.length == 0) {

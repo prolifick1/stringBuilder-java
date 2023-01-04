@@ -3,12 +3,12 @@ package leetCode.HashTables;
 
 /*1365. How Many Numbers Are Smaller Than the Current Number*/
 public class NumbersAreSmallerThanCurrentNumber {
-    public static void main(String[] args) {
-        int[] nums = {8, 6, 5, 4, 3};
-        System.out.println(smallerNumbersThanCurrent(nums));
-    }
+//    public static void main(String[] args) {
+//        int[] nums = {8, 6, 5, 4, 3};
+//        System.out.println(smallerNumbersThanCurrent(nums));
+//    }
 
-    public static int[] smallerNumbersThanCurrent(int[] nums) {
+    public int[] smallerNumbersThanCurrent(int[] nums) {
         int n = nums.length;
         int[] ans = new int[n];
         int[] temp = new int[101]; //from constraits

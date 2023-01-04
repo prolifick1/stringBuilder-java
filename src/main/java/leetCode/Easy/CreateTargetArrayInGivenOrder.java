@@ -2,15 +2,8 @@ package leetCode.Easy;
 /*1389. Create Target Array in the Given Order*/
 
 public class CreateTargetArrayInGivenOrder {
-//    public static void main(String[] args) {
-//        int[] nums = {0, 1, 2, 3, 4};
-//        int[] indexes = {0, 1, 2, 2, 1};
-//        for (int item : createTargetArray(nums, indexes)) {
-//            System.out.print(item + " ");
-//        }
-//    }
 
-    public static int[] createTargetArray(int[] nums, int[] index) {
+    public  int[] createTargetArray(int[] nums, int[] index) {
 
         for (int i = 0; i < nums.length; i++) {
             int val = nums[i];

@@ -9,9 +9,9 @@ public class TaskA {
     static HashMap<Integer, DcState> dcIdStates = new HashMap<>();
     static TreeMap<Long, TreeSet<Integer>> mulToDcIds = new TreeMap<>();
 
-    public static void main(String[] args) throws FileNotFoundException {
-        solve();
-    }
+//    public static void main(String[] args) throws FileNotFoundException {
+//        solve();
+//    }
 
     private static void solve() throws FileNotFoundException {
         input();
