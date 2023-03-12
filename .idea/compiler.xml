@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="leet-code-tasks" />
+        <module name="stringBuilder-java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="leet-code-tasks" target="17" />
+      <module name="stringBuilder-java" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
